@@ -1,0 +1,16 @@
+PODS:
+  - TekStnServiceInterface (0.1.0)
+
+DEPENDENCIES:
+  - TekStnServiceInterface (from `../`)
+
+EXTERNAL SOURCES:
+  TekStnServiceInterface:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TekStnServiceInterface: 377e9de0f3d8cbad0a6dfbb344bba920be1755c9
+
+PODFILE CHECKSUM: 0f4fedd335be20a54ae0a43169c3a502b35486fb
+
+COCOAPODS: 1.9.2

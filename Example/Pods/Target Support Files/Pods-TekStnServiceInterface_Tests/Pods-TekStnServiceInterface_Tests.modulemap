@@ -1,0 +1,6 @@
+framework module Pods_TekStnServiceInterface_Tests {
+  umbrella header "Pods-TekStnServiceInterface_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

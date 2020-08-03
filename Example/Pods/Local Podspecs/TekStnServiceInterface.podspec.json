@@ -1,0 +1,22 @@
+{
+  "name": "TekStnServiceInterface",
+  "version": "0.1.0",
+  "summary": "A short description of TekStnServiceInterface.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/linhvt-teko/TekStnServiceInterface",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "linhvt-teko": "linh.vt@teko.vn"
+  },
+  "source": {
+    "git": "https://github.com/linhvt-teko/TekStnServiceInterface.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TekStnServiceInterface/Classes/**/*"
+}
