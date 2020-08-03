@@ -1,0 +1,6 @@
+use_frameworks!
+target 'TekStnServiceInterface_Tests' do
+  pod 'TekStnServiceInterface', :path => '../'
+  
+  
+end
