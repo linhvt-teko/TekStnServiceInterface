@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		03C263170AB3FA737FA859E22FCA0472 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		14EE53B514FCB4F4C5B6BCB06EA0645C /* TekStnServiceInterface-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B231C3E3E03E38EF2744C685B9D928BD /* TekStnServiceInterface-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F82E0356E6E5C51701E5B7630D31A06 /* ExtraDataNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD50AD7A7F5F4266E0F157CE1C0876C /* ExtraDataNotification.swift */; };
+		1F82E0356E6E5C51701E5B7630D31A06 /* IExtraDataNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD50AD7A7F5F4266E0F157CE1C0876C /* IExtraDataNotification.swift */; };
 		2229BBDD196932262DA735AFFDB2E12F /* Pods-TekStnServiceInterface_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C034BFDB87EEEBAFE33FFDBD61A36E53 /* Pods-TekStnServiceInterface_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3FEA4733CB0F4D9D5506B1E2D6F66C14 /* NotificationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CCB03A1CEC7381BB2090191C13294B /* NotificationResult.swift */; };
+		3FEA4733CB0F4D9D5506B1E2D6F66C14 /* INotificationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CCB03A1CEC7381BB2090191C13294B /* INotificationResult.swift */; };
 		5D6F5810D3DAC7CCF3B856329E8FC107 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		7080C710E9756FC77E8F89F40597F0A2 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA52880B9054CAF9A0DCD301BFE46C9 /* Notification.swift */; };
+		7080C710E9756FC77E8F89F40597F0A2 /* INotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA52880B9054CAF9A0DCD301BFE46C9 /* INotification.swift */; };
 		833C35464CD11D968A7FF714EB6276FB /* IStnService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324A3157C13329772D32A0C4A2480B87 /* IStnService.swift */; };
 		A6D23705AAB3C252B3CD979E04741763 /* Pods-TekStnServiceInterface_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57825A6E3C51C9A783F627070BD94FEE /* Pods-TekStnServiceInterface_Tests-dummy.m */; };
-		A889F653810BB2ABCA104BDD843BAB20 /* OrderNotificationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37006B45804FB6762168522F909F7D74 /* OrderNotificationData.swift */; };
+		A889F653810BB2ABCA104BDD843BAB20 /* IOrderNotificationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37006B45804FB6762168522F909F7D74 /* IOrderNotificationData.swift */; };
 		BD4C85004C8CCC67B595460F37750928 /* TekStnServiceInterface-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5619D49A3C1DB3FEE048AC50304BFB0F /* TekStnServiceInterface-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -33,27 +33,27 @@
 /* Begin PBXFileReference section */
 		056D6A9B2ADE29DD484818D0C1DDC5DA /* TekStnServiceInterface.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TekStnServiceInterface.debug.xcconfig; sourceTree = "<group>"; };
 		0755918C1A273DF40754D9C502505142 /* Pods-TekStnServiceInterface_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TekStnServiceInterface_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		15CCB03A1CEC7381BB2090191C13294B /* NotificationResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NotificationResult.swift; sourceTree = "<group>"; };
-		1938C60DAEB2B41711E0E8CEEDFBFA8F /* TekStnServiceInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TekStnServiceInterface.framework; path = TekStnServiceInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15CCB03A1CEC7381BB2090191C13294B /* INotificationResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = INotificationResult.swift; sourceTree = "<group>"; };
+		1938C60DAEB2B41711E0E8CEEDFBFA8F /* TekStnServiceInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TekStnServiceInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		198F133BCEF84609187C383170C298D9 /* TekStnServiceInterface-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TekStnServiceInterface-Info.plist"; sourceTree = "<group>"; };
 		1D721F4A5C0EA00CEBC05E79B1821BF1 /* TekStnServiceInterface-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TekStnServiceInterface-prefix.pch"; sourceTree = "<group>"; };
 		226ACD242DDF5AF6F451BAA29ACA2C00 /* Pods-TekStnServiceInterface_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TekStnServiceInterface_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2343322DC47DFC9600FCEC4C6121D106 /* TekStnServiceInterface.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TekStnServiceInterface.modulemap; sourceTree = "<group>"; };
-		2C53244191CC978E00C70D9352B8E863 /* Pods_TekStnServiceInterface_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TekStnServiceInterface_Tests.framework; path = "Pods-TekStnServiceInterface_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2CD50AD7A7F5F4266E0F157CE1C0876C /* ExtraDataNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ExtraDataNotification.swift; sourceTree = "<group>"; };
+		2C53244191CC978E00C70D9352B8E863 /* Pods_TekStnServiceInterface_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TekStnServiceInterface_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CD50AD7A7F5F4266E0F157CE1C0876C /* IExtraDataNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IExtraDataNotification.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		324A3157C13329772D32A0C4A2480B87 /* IStnService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IStnService.swift; path = TekStnServiceInterface/Classes/IStnService.swift; sourceTree = "<group>"; };
-		34DCF135DB52CE05A007BE5734E09CAE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		37006B45804FB6762168522F909F7D74 /* OrderNotificationData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OrderNotificationData.swift; sourceTree = "<group>"; };
+		34DCF135DB52CE05A007BE5734E09CAE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		37006B45804FB6762168522F909F7D74 /* IOrderNotificationData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IOrderNotificationData.swift; sourceTree = "<group>"; };
 		3DA5C1A6F4274B09CA963D4B4A261489 /* Pods-TekStnServiceInterface_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TekStnServiceInterface_Tests.modulemap"; sourceTree = "<group>"; };
 		5619D49A3C1DB3FEE048AC50304BFB0F /* TekStnServiceInterface-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TekStnServiceInterface-dummy.m"; sourceTree = "<group>"; };
 		57825A6E3C51C9A783F627070BD94FEE /* Pods-TekStnServiceInterface_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TekStnServiceInterface_Tests-dummy.m"; sourceTree = "<group>"; };
 		711F9486FA2852490C8635BAB7DB0B33 /* TekStnServiceInterface.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TekStnServiceInterface.release.xcconfig; sourceTree = "<group>"; };
 		82BB1F7857E70246A592EE0437A2E3DB /* Pods-TekStnServiceInterface_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TekStnServiceInterface_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8AA52880B9054CAF9A0DCD301BFE46C9 /* Notification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
-		8ECE0B24312261AA80CC87406ADB6BAA /* TekStnServiceInterface.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TekStnServiceInterface.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B19338FF174982855BBFA7B8F70F617A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8AA52880B9054CAF9A0DCD301BFE46C9 /* INotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = INotification.swift; sourceTree = "<group>"; };
+		8ECE0B24312261AA80CC87406ADB6BAA /* TekStnServiceInterface.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TekStnServiceInterface.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B19338FF174982855BBFA7B8F70F617A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B231C3E3E03E38EF2744C685B9D928BD /* TekStnServiceInterface-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TekStnServiceInterface-umbrella.h"; sourceTree = "<group>"; };
 		B3E4780F5FC6D17E51947CF9E9CE9C36 /* Pods-TekStnServiceInterface_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TekStnServiceInterface_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		C034BFDB87EEEBAFE33FFDBD61A36E53 /* Pods-TekStnServiceInterface_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TekStnServiceInterface_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -94,10 +94,10 @@
 		68DC893B7AEB4100D740AEBA0AADBDB7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				2CD50AD7A7F5F4266E0F157CE1C0876C /* ExtraDataNotification.swift */,
-				8AA52880B9054CAF9A0DCD301BFE46C9 /* Notification.swift */,
-				15CCB03A1CEC7381BB2090191C13294B /* NotificationResult.swift */,
-				37006B45804FB6762168522F909F7D74 /* OrderNotificationData.swift */,
+				2CD50AD7A7F5F4266E0F157CE1C0876C /* IExtraDataNotification.swift */,
+				8AA52880B9054CAF9A0DCD301BFE46C9 /* INotification.swift */,
+				15CCB03A1CEC7381BB2090191C13294B /* INotificationResult.swift */,
+				37006B45804FB6762168522F909F7D74 /* IOrderNotificationData.swift */,
 			);
 			name = Models;
 			path = TekStnServiceInterface/Classes/Models;
@@ -308,11 +308,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F82E0356E6E5C51701E5B7630D31A06 /* ExtraDataNotification.swift in Sources */,
+				1F82E0356E6E5C51701E5B7630D31A06 /* IExtraDataNotification.swift in Sources */,
 				833C35464CD11D968A7FF714EB6276FB /* IStnService.swift in Sources */,
-				7080C710E9756FC77E8F89F40597F0A2 /* Notification.swift in Sources */,
-				3FEA4733CB0F4D9D5506B1E2D6F66C14 /* NotificationResult.swift in Sources */,
-				A889F653810BB2ABCA104BDD843BAB20 /* OrderNotificationData.swift in Sources */,
+				7080C710E9756FC77E8F89F40597F0A2 /* INotification.swift in Sources */,
+				3FEA4733CB0F4D9D5506B1E2D6F66C14 /* INotificationResult.swift in Sources */,
+				A889F653810BB2ABCA104BDD843BAB20 /* IOrderNotificationData.swift in Sources */,
 				BD4C85004C8CCC67B595460F37750928 /* TekStnServiceInterface-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,8 +390,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

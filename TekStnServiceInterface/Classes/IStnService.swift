@@ -7,7 +7,7 @@
 
 import Foundation
 
-public typealias GetNotificationHandler = (_ notifications: [VSNotification], _ checkPoint: Int, _ unread: Int) -> Void
+public typealias GetNotificationHandler = (_ notifications: [INotification], _ checkPoint: Int, _ unread: Int) -> Void
 public typealias GetUnreadCountHandler = (_ count: Int) -> Void
 public typealias MarkAsReadHandler = (_ success: Bool) -> Void
 
